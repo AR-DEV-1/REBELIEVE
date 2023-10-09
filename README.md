@@ -1,5 +1,5 @@
 # RE BELIEVE
-**A Minecraft like game for Web Browsers**
+**A game based on imagination**
 **Singleplayer is only supported...**
 **RE BELIEVE supports Computers only...**
 **RE BELIEVE will soon support Multiplayer and LAN Worlds...**
