@@ -1,8 +1,8 @@
 /* styles.css */
 
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
     text-align: center;
     font-family: Arial, sans-serif;
 }
