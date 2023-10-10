@@ -8,8 +8,21 @@
 </head>
 <body style="margin: 0; width: 100vw; height: 100vh; overflow: hidden;">   
     <div id="game-frame">
+                <script>
+            var backgroundImages = [
+                'https://raw.githubusercontent.com/AR-DEV-1/REBELIEVE',
+                'https://raw.githubusercontent.com/AR-DEV-1/REBELIEVE',
+                'https://raw.githubusercontent.com/AR-DEV-1/REBELIEVE',
+                'https://raw.githubusercontent.com/AR-DEV-1/REBELIEVE', 
+                'https://raw.githubusercontent.com/AR-DEV-1/REBELIEVE',
+                'https://raw.githubusercontent.com/AR-DEV-1/REBELIEVE',
+                
+            ];
+                    
+            var randomIndex = Math.floor(Math.random() * backgroundImages.length);
+            document.body.style.backgroundImage = 'url(' + backgroundImages[randomIndex] + ')';
+        </script>
     </div>
-        </map>
-    </div>
+
 </body>
 </html>
