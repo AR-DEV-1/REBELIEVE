@@ -1,7 +1,9 @@
 /* styles.css */
 
 body {
-    background-color: #fff; /* White background */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center center; 
     color: #000; /* Black text color */
     text-align: center;
     font-family: Arial, sans-serif;
