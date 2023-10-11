@@ -1,26 +1,11 @@
- body {  
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+body {
     background-image: url('https://raw.githubusercontent.com/AR-DEV-1/REBELIEVE/main/main/assets/gui/background/1.png');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center; /* Center the image horizontally and vertically */
     padding: 20px; /* Add padding to the content */
     opacity: 0.9; /* Adjust opacity (0-1) */
-    font-family: Arial, sans-serif;
-    background: no-repeat fixed center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; /* Prevent scrolling */
-  }
-#background-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%; 
-    height: 100%;
-    z-index: -1; 
 }
+
 
 
