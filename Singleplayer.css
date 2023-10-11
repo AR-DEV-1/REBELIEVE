@@ -1,7 +1,12 @@
  body {  
-margin: 0;
+    margin: 0;
     padding: 0;
     height: 100vh;
+    background-image: url('main/assets/gui/background/1.png');
+    background-size: cover;
+    background-position: center center; /* Center the image horizontally and vertically */
+    padding: 20px; /* Add padding to the content */
+    opacity: 0.9; /* Adjust opacity (0-1) */
     font-family: Arial, sans-serif;
     background: no-repeat fixed center/cover;
     display: flex;
@@ -17,13 +22,5 @@ margin: 0;
     height: 100%;
     z-index: -1; 
 }
-.container {
-    display: flex;
-    justify-content: center; /* Horizontally center the button */
-    align-items: center; /* Vertically center the button */
-    height: 100vh; /* This ensures the container takes the full viewport height */
-}
 
-.centered-button {
 
-}
