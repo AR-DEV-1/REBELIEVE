@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center; /* Center the image horizontally and vertically */
     padding: 20px; /* Add padding to the content */
-    opacity: 0.9; /* Adjust opacity (0-1) */
+    opacity: 0.5; /* Adjust opacity (0-1) */
 }
 
 
