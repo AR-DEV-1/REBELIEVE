@@ -7,7 +7,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body style="margin: 0; width: 100vw; height: 100vh; overflow: hidden;">   
+<a href="javascript:void(0);" onclick="loadContent('Singleplayer')">Singleplayer</a>
+<a href="javascript:void(0);" onclick="loadContent('Multiplayer')">Multiplayer</a>
+    
     <div id="game-frame">
+        <div id="Singleplayer">
+<img src="main/assets/gui/buttons/Singleplayer.png" alt="Singleplayer">
+</div>
+<div id="Multiplayer">
+    
+</div>
+        <script>
+    function loadContent(contentId) {
+        // Hide all content areas
+        var contentAreas = document.querySelectorAll('[id^="content"]');
+        contentAreas.forEach(function (element) {
+            element.style.display = 'none';
+        });
+
+        // Display the selected content
+        document.getElementById(contentId).style.display = 'block';
+    }
+</script>
+
+
                 <script>
             var backgroundImages = [
                 'https://raw.githubusercontent.com/AR-DEV-1/REBELIEVE/main/main/assets/gui/background/1.png',
