@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('main/assets/gui/background/1.png');
+    background-image: url('https://raw.githubusercontent.com/AR-DEV-1/REBELIEVE/main/main/assets/gui/background/1.png');
     background-size: cover;
     background-position: center center; /* Center the image horizontally and vertically */
     padding: 20px; /* Add padding to the content */
