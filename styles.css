@@ -22,3 +22,15 @@ margin: 0;
 audio {
     display: none;
 }
+   a {
+        text-decoration: none;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    img {
+        width: 150px; /* Adjust the width as needed */
+        height: auto; /* Maintain the aspect ratio */
+        border: 2px solid #ccc; /* Add a border */
+        border-radius: 5px; /* Add rounded corners */
+    }
