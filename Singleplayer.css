@@ -1,0 +1,29 @@
+ body {  
+margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: no-repeat fixed center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent scrolling */
+  }
+#background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%; 
+    height: 100%;
+    z-index: -1; 
+}
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+    height: 100vh; /* This ensures the container takes the full viewport height */
+}
+
+.centered-button {
+
+}
