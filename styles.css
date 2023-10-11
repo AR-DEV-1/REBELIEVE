@@ -6,6 +6,7 @@ margin: 0;
     font-family: Arial, sans-serif;
     background: no-repeat fixed center/cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Prevent scrolling */
@@ -32,6 +33,7 @@ audio {
         width: 250px; /* Adjust the width as needed */
         height: auto; /* Maintain the aspect ratio */
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         overflow: hidden;
