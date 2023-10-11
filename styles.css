@@ -5,6 +5,7 @@ margin: 0;
     height: 100vh;
     font-family: Arial, sans-serif;
     background: no-repeat fixed center/cover;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,6 +14,7 @@ margin: 0;
   }
 #background-container {
     position: absolute;
+    background-position: center center;
     top: 0;
     left: 0;
     width: 200%; 
@@ -34,6 +36,7 @@ audio {
         height: auto; /* Maintain the aspect ratio */
         display: flex;
         flex-direction: column;
+        background-position: center center;
         justify-content: center;
         align-items: center;
         overflow: hidden;
